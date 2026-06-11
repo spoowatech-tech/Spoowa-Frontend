@@ -10,7 +10,7 @@ const ADMIN_API_URL = "/admin";
 // We'll set this after creating one in the admin panel.
 // For now, we'll try without it and add it later.
 // ============================================================
-let publishableApiKey = "pk_07791845c900f091e7f5b693339231019cc5275860f3098c1288772a37a3f5a1";
+let publishableApiKey = "pk_134655a32b1f93219dd2987c6da87fd634e0e9330624a1a118b3efcc6b7f39d0";
 
 export function setPublishableApiKey(key) {
   // Not needed if hardcoded

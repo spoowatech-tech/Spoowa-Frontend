@@ -12,7 +12,7 @@ async function getAdminToken() {
   const res = await fetch(`${BACKEND_URL}/auth/user/emailpass`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ email: "admin@medusa-test.com", password: "supersecret" }),
+    body: JSON.stringify({ email: "admin@admin.com", password: "supersecret" }),
   });
   if (!res.ok) {
     const err = await res.text();
